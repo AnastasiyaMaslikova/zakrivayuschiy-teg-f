@@ -191,6 +191,9 @@ p {
   block-size: 21px;
   position: relative;
   z-index: 2;
+  mix-blend-mode: difference;
+  color: #fff;
+  fill: currentColor;
 }
 
 .dialog {
@@ -211,13 +214,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.dialog__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  align-items: start;
 }
 
 .dialog__content {
@@ -428,14 +424,6 @@ p {
   color: #fff;
   z-index: 2;
   mix-blend-mode: difference;
-}
-
-.save__img-floppy {
-  mix-blend-mode: difference;
-  z-index: 2;
-  position: relative;
-  color: #fff;
-  fill: currentColor;
 }
 
 .card__icon-button:focus {
