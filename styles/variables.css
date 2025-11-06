@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-fn: 'Inter-Variable', sans-serif;
+  --accent-fn: 'PressStart2P-Regular', fantasy;
+  --main-card-wght: 410; 
+  --h-card-wght: 715;
+  --gradient: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+              repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+              repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --block-width: clamp(23.438rem, 50.077vw + 11.701rem, 43.75rem);
+  --header-padding: clamp(7.625rem, 0.752vw + 7.448rem, 8.125rem) clamp(1rem, 10.056vw - 1.363rem, 7.688rem);
+  --header-margin: clamp(6.25rem, 0vw + 6.25rem, 6.25rem) clamp(0rem, 34.774vw - 8.172rem, 23.125rem);
+  --logo-size: clamp(3.0625rem, 2.7091rem + 1.5038vw, 4.0625rem);
+  --h-size: clamp(0.875rem, 0.6762rem + 0.8459vw, 1.4375rem);
+  --main-margin: 0px clamp(0rem, 34.774vw - 8.172rem, 23.125rem) clamp(6.25rem, 0vw + 6.25rem, 6.25rem) ;
+  --label-stroke-color: #fff;
+  --accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
+  --bg-color: #fff;
+}
