@@ -2,7 +2,7 @@
 
 :root {
   --main-fn: 'Inter-Variable', sans-serif;
-  --accent-fn: 'PressStart2P-Regular', fantasy;
+  --accent-fn: 'PressStart2P', fantasy;
   --main-card-wght: 410;
   --h-card-wght: 715;
   --gradient: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
